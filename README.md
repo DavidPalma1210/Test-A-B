@@ -91,4 +91,10 @@ Python · pandas · NumPy · SciPy (prueba Z, Mann-Whitney U) · Matplotlib
 └── requirements.txt
 ```
 
-> Los archivos de datos originales no se incluyen en este repositorio por su tamaño; ver `data/README.md` para su origen.
+## Presentación
+
+La presentación ejecutiva con hallazgos, gráficas y recomendación está en [`presentacion.pdf`](https://drive.google.com/file/d/1jtEci_SNUwtatipiGBUXkaox3oqcY-VY/view?usp=sharing).
+
+## Autor
+
+Jesús David Palma García — CPA / Analista de datos
