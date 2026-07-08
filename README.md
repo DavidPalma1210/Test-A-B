@@ -10,14 +10,17 @@ Evaluación de un experimento A/B (`recommender_system_test`) que probó un nuev
 
 Determinar si el grupo de prueba (B, con el nuevo sistema de recomendaciones) mejora la conversión respecto al grupo de control (A), con una mejora esperada de al menos **10%** en las etapas clave del embudo, y validar si el experimento fue ejecutado correctamente antes de tomar esa decisión.
 
-| Parámetro | Valor esperado |
-|---|---|
-| Región objetivo | EU |
-| Periodo de registro de usuarios | 2020-12-07 a 2020-12-21 |
-| Periodo de eventos | 2020-12-07 a 2021-01-01 |
-| Ventana de análisis por usuario | 14 días desde el registro |
-| Participantes esperados | 6,000 (15% de nuevos usuarios EU) |
-| Nivel de significancia | α = 0.05 |
+## Contenido del repositorio
+
+├── datasets/
+│   ├── ab_project_marketing_events_us.csv
+│   ├── final_ab_events_upd_us.csv
+│   ├── final_ab_new_users_upd_us.csv
+│   └── final_ab_participants_upd_us.csv
+├── 01_planificacion_test_ab.ipynb
+├── ab_test_conclusiones.pdf
+├── README.md
+└── requirements.txt
 
 ## Datos
 
