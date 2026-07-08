@@ -10,18 +10,6 @@ Evaluación de un experimento A/B (`recommender_system_test`) que probó un nuev
 
 Determinar si el grupo de prueba (B, con el nuevo sistema de recomendaciones) mejora la conversión respecto al grupo de control (A), con una mejora esperada de al menos **10%** en las etapas clave del embudo, y validar si el experimento fue ejecutado correctamente antes de tomar esa decisión.
 
-## Contenido del repositorio
-
-├── datasets/
-│   ├── ab_project_marketing_events_us.csv
-│   ├── final_ab_events_upd_us.csv
-│   ├── final_ab_new_users_upd_us.csv
-│   └── final_ab_participants_upd_us.csv
-├── 01_planificacion_test_ab.ipynb
-├── ab_test_conclusiones.pdf
-├── README.md
-└── requirements.txt
-
 ## Datos
 
 | Archivo | Descripción |
@@ -85,12 +73,14 @@ Python · pandas · NumPy · SciPy (prueba Z, Mann-Whitney U) · Matplotlib
 ## Contenido del repositorio
 
 ```
-├── notebooks/
-│   └── 01_planificacion_test_ab.ipynb   # Notebook completo: planificación, EDA, embudo, pruebas estadísticas
-├── presentation/
-│   └── ab_test_conclusiones.pdf         # Resumen ejecutivo (10 slides)
-├── data/
-│   └── README.md                        # Origen y descripción de los datos (no incluidos por tamaño)
+├── datasets/
+│   ├── ab_project_marketing_events_us.csv
+│   ├── final_ab_events_upd_us.csv
+│   ├── final_ab_new_users_upd_us.csv
+│   └── final_ab_participants_upd_us.csv
+├── 01_planificacion_test_ab.ipynb
+├── ab_test_conclusiones.pdf
+├── README.md
 └── requirements.txt
 ```
 
